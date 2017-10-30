@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: springbootweb Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: huangml
+Implementation-Vendor-Id: com.inzy
+Build-Jdk: 1.8.0_121
+Implementation-URL: http://projects.spring.io/spring-boot/springbootwe
+ b/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: com.beenoisy.springboot.way.BeenoisySpringBootWayApplicati
+ on
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.inzy.springbootweb.dao.UserDao">
+  <select id="findAll" resultType="com.inzy.springbootweb.model.User">
+    select * from user
+  </select>
+  <delete id="deleteUser" parameterType="java.lang.String">
+  	delete from  user where  id = #{id};
+  </delete>
+  <insert id="addUser" parameterType="com.inzy.springbootweb.model.User">
+  	insert into User(ID,USERNAME)
+  	values (
+  	#{id},
+  	#{username}
+  	)
+  </insert>
+</mapper>
